@@ -17,4 +17,5 @@ JOIN parks_departments pd
       ON es.dept_id = pd.department_id
  
  GROUP BY pd.department_id;
+
  
