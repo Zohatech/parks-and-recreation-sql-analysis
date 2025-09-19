@@ -17,11 +17,14 @@ JOIN employee_salary es
 JOIN parks_departments pd
       ON es.dept_id = pd.department_id
 
+ GROUP BY pd.department_id;
+      
+
 department_id	department_name	employee_count
 1	    Parks and Recreation	   6
-4	    Healthcare	          1
-3	    Public Works	          2
-6	     Finance	                 1
+4	    Healthcare	           1
+3	    Public Works	           2
+6	     Finance	                  1
 
       
  
