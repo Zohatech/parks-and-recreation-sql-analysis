@@ -18,7 +18,7 @@ JOIN parks_departments pd
       ON es.dept_id = pd.department_id
 
  GROUP BY pd.department_id;
-      
+
 
 department_id	department_name	employee_count
 1	    Parks and Recreation	   6
